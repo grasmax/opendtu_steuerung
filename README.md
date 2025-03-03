@@ -10,3 +10,9 @@ Idee: Einsatz der [OpenDTU](https://github.com/tbnobody/OpenDTU) für
 3. die Abfrage der Ertragswerte vom Wechselrichter.
 4. Die Versorgungsspannung für die OpenDTU (+5VDC) wird nur für die Dauer der Abfragen eingeschaltet. Die Versorgungsspannung wird über ein 3-Kanal-Relaisboard auf dem RaspberryPi geschaltet.
    
+* [opendtu.cfg](https://github.com/grasmax/opendtu_steuerung/blob/main/opendtu.cfg) Die Konfigurationsdatei.
+* [gmbasis.py](https://github.com/grasmax/opendtu_steuerung/blob/main/gmbasis.py) Einige Basisklassen.
+* [opendtu.py](https://github.com/grasmax/opendtu_steuerung/blob/main/opendtu.py) Das Script zum Konfigurieren und Abfragen. Aktualisiert auch crontab-Einträge.
+* [opendtu_sunset.sh](https://github.com/grasmax/opendtu_steuerung/blob/main/opendtu_sunset.sh) Scriptaufruf für den Sonnenuntergang.Schaltet auch die Versorgungspannung wieder aus.
+* [opendtu_switch_on.sh](https://github.com/grasmax/opendtu_steuerung/blob/main/opendtu_switch_on.sh) Schaltet die Versorgungsspannung ein.
+* [opendtu_switch_on_off.py](https://github.com/grasmax/opendtu_steuerung/blob/main/opendtu_switch_on_off.py) Versorgungsspannung ein- und ausschalten.
